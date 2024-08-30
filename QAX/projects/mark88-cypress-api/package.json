@@ -1,0 +1,24 @@
+{
+  "name": "mark88-cypress-api",
+  "version": "1.0.0",
+  "description": "Projeto de teste de API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "mongodb",
+    "rabbitmq"
+  ],
+  "author": "Sil",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.3",
+    "cypress-plugin-api": "^2.11.2"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}
